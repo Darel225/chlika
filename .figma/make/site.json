@@ -1,0 +1,10 @@
+{
+  "description": "Showcases and sells trendy, rare footwear to young, style-conscious customers in Abidjan with seamless online shopping and detailed product info.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

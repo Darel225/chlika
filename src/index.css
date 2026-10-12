@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Montserrat', system-ui, sans-serif;
+  --font-body: 'Montserrat', system-ui, sans-serif;
+  --font-logo: 'Dancing Script', cursive;
+
+  --color-brand-purple: #662482;
+  --color-brand-purple-dark: #4a1a5e;
+  --color-brand-pink: #E5007E;
+  --color-brand-lilac: #C298D8;
+  --color-brand-dark: #111111;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', system-ui, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #C298D8;
+  border-radius: 2px;
+}
